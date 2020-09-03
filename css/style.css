@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header.main-header {
+  height: 80px;
+  line-height: 80px;
+}
+
+.logo #logo-img {
+  margin: 0 30px 5px 0;
+  width: 120px;
+  vertical-align: middle;
+}
+
+.cat-select .cat-select-list {
+  text-transform: uppercase;
+}
+
+.cat-select .cat-select-list,
+nav.main-nav .main-nav-list,
+nav.main-nav .main-nav-list .dropdown-list {
+  list-style: none;
+}
+
+.cat-select .cat-select-list,
+nav.main-nav .main-nav-list {
+  display: flex;
+}
+
+nav.main-nav {
+  margin-left: auto;
+}
+
+.cat-select .cat-select-list .cat-select-list-item,
+nav.main-nav .main-nav-list .main-nav-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.cat-select .cat-select-list .cat-select-list-item a,
+nav.main-nav .main-nav-list .main-nav-list-item a {
+  text-decoration: none;
+  color: #999;
+}
+
+.cat-select .cat-select-list .cat-select-list-item a:hover,
+nav.main-nav .main-nav-list .main-nav-list-item a:hover {
+  color: #333;
+}
+
+nav.main-nav .main-nav-list .dropdown-list {
+  display: none;
+}
+
+a.cta-btn {
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #EB008D;
+  border-radius: 20px;
+}
+
+.cta a.cta-btn {
+  margin-left: 30px;
+}

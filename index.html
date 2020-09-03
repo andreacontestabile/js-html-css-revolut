@@ -4,61 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Revolut</title>
   </head>
   <body>
     <header class="main-header">
-      <div class="logo">
-        <img src="img/revolut-logo.png" id="logo-img" alt="Revolut Logo">
+      <div class="container">
+        <div class="logo">
+          <img src="img/revolut-logo.png" id="logo-img" alt="Revolut Logo">
+        </div>
+        <div class="cat-select">
+          <ul class="cat-select-list">
+            <li class="cat-select-list-item"><a href="#">Personal</a></li>
+            <li class="cat-select-list-item"><a href="#">Business</a></li>
+          </ul>
+        </div>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-list-item">
+              <a href="#">Denaro</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-list-item"><a href="#">Invia denaro all'estero</a></li>
+                <li class="dropdown-list-item"><a href="">Effettua e ricevi pagamenti</a></li>
+                <li class="dropdown-list-item"><a href="">Paga con Apple Pay</a></li>
+                <li class="dropdown-list-item"><a href="">Paga con GPay</a></li>
+              </ul>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#">Investimenti e risparmi</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-list-item"><a href="#">Effettua compravendite di titoli azionari</a></li>
+                <li class="dropdown-list-item"><a href="#">Effettua compravendite di prodotti</a></li>
+                <li class="dropdown-list-item"><a href="#">Effettua compravendite Crypto</a></li>
+                <li class="dropdown-list-item"><a href="#">Imposta i Salvadanai</a></li>
+              </ul>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#">Controllo</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-list-item"><a href="#">Imposta i budget</a></li>
+                <li class="dropdown-list-item"><a href="#">Tutelati</a></li>
+              </ul>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#">Altro</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-list-item"><a href="#">Assicura te stesso all'estero</a></li>
+                <li class="dropdown-list-item"><a href="#">Assicura il tuo dispositivo</a></li>
+                <li class="dropdown-list-item"><a href="#">Dona agli enti di beneficenza</a></li>
+              </ul>
+            </li>
+            <li class="main-nav-list-item">
+              <a href="#">Abbonamenti</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-list-item"><a href="#">Standard</a></li>
+                <li class="dropdown-list-item"><a href="#">Premium</a></li>
+                <li class="dropdown-list-item"><a href="#">Metal</a></li>
+                <li class="dropdown-list-item"><a href="#">Junior</a></li>
+                <li class="dropdown-list-item"><a href="#">Tariffazione</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="cta">
+          <a class="cta-btn" href="#">Scarica l'app</a>
+        </div>
+      </header>
       </div>
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li class="main-nav-list-item">Denaro
-            <ul class="dropdown-list">
-              <li class="dropdown-list-item">Invia denaro all'estero</li>
-              <li class="dropdown-list-item">Effettua e ricevi pagamenti</li>
-              <li class="dropdown-list-item">Paga con Apple Pay</li>
-              <li class="dropdown-list-item">Paga con GPay</li>
-            </ul>
-          </li>
-          <li class="main-nav-list-item">Investimenti e risparmi
-            <ul class="dropdown-list">
-              <li class="dropdown-list-item">Effettua compravendite di titoli azionari</li>
-              <li class="dropdown-list-item">Effettua compravendite di prodotti</li>
-              <li class="dropdown-list-item">Effettua compravendite Crypto</li>
-              <li class="dropdown-list-item">Imposta i Salvadanai</li>
-            </ul>
-          </li>
-          <li class="main-nav-list-item">Controllo
-            <ul class="dropdown-list">
-              <li class="dropdown-list-item">Imposta i budget</li>
-              <li class="dropdown-list-item">Tutelati</li>
-            </ul>
-          </li>
-          <li class="main-nav-list-item">Altro
-            <ul class="dropdown-list">
-              <li class="dropdown-list-item">Assicura te stesso all'estero</li>
-              <li class="dropdown-list-item">Assicura il tuo dispositivo</li>
-              <li class="dropdown-list-item">Dona agli enti di beneficenza</li>
-            </ul>
-          </li>
-          <li class="main-nav-list-item">Abbonamenti
-            <ul class="dropdown-list">
-              <li class="dropdown-list-item">Standard</li>
-              <li class="dropdown-list-item">Premium</li>
-              <li class="dropdown-list-item">Metal</li>
-              <li class="dropdown-list-item">Junior</li>
-              <li class="dropdown-list-item">Tariffazione</li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <div class="cta">
-        <a class="cta-btn" href="#">Scarica l'app</a>
-      </div>
-    </header>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js" charset="utf-8"></script>
   </body>
